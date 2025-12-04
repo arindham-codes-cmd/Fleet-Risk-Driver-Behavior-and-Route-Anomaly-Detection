@@ -1,0 +1,37 @@
+Name - Driver behavior and route anomaly Dataset (DBRA24)
+Description of Dataset: California Driver Behavior and Route Anomaly Detection
+This dataset was collected from vehicles operating across various regions in California. It includes detailed trip records with 26 features to study driver behavior and detect anomalies in driving routes. The dataset is ideal for developing models in driver behavior analysis, route anomaly detection, and logistics optimization.
+
+Key Details:
+Records: 120,000
+Features: 26
+Location: California
+Time Period: January 2023
+
+Columns 
+trip_id: Unique identifier for each trip.
+driver_id: Unique identifier for the driver.
+vehicle_id: Unique identifier for the vehicle.
+timestamp: Date and time when the GPS reading was recorded.
+latitude: GPS latitude coordinate.
+longitude: GPS longitude coordinate.
+speed: Vehicle speed during the trip (in km/h).
+acceleration: Rate of change in speed.
+steering_angle: Angle of the steering wheel to detect sharp turns or swerving.
+heading: Direction the vehicle is moving (in degrees, 0° to 360°).
+trip_duration: Total duration of the trip (in minutes).
+trip_distance: Total distance traveled during the trip (in km).
+fuel_consumption: Amount of fuel consumed during the trip (in liters).
+rpm: Engine revolutions per minute.
+brake_usage: Frequency and intensity of brake usage.
+lane_deviation: Deviation of the vehicle from its lane.
+weather_conditions: Environmental conditions during the trip (e.g., sunny, cloudy).
+road_type: Type of road (e.g., highway, urban, rural).
+traffic_condition: Traffic density during the trip (e.g., light, moderate, heavy).
+stop_events: Number of stops made during the trip.
+geofencing_violation: Indicates if the vehicle crossed a geofencing boundary.
+anomalous_event: Indicates the occurrence of any abnormal driving behavior (e.g., harsh braking).
+route_anomaly: Indicates if the vehicle deviated from the planned route.
+route_deviation_score: A score representing the severity of the route deviation.
+acceleration_variation: Variability in acceleration during the trip.
+behavioral_consistency_index: Index measuring the consistency of the driver’s behavior across trips.	
